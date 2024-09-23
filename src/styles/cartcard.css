@@ -1,0 +1,39 @@
+.cart-card-container{
+    width: 350px;
+    margin-left: auto;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    padding: 10px 20px 10px 25px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.cart-card-title{
+    color: gray;
+    margin-right: 220px;
+}
+.price-card-container{
+    display: flex;
+    align-items: center;
+}
+.total-title{
+    margin-right: 240px;
+}
+.total-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.next-button{
+    background-color: rgb(102, 145, 16);
+    border: none;
+    font-family: Arial;
+    border-radius: 40px;
+    padding: 10px 150px 10px 150px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}

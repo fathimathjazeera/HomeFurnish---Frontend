@@ -1,0 +1,51 @@
+.address-input-container {
+  display: flex;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.address {
+  background-color: rgb(241, 238, 236);
+  border: none;
+  margin-right: 40px;
+  padding: 15px 200px 15px 15px;
+  border-radius: 40px;
+  outline: none;
+}
+.address-label-name {
+  margin-left: 20px;
+}
+.label-name-container {
+  margin-bottom: 5px;
+}
+.address-title {
+  margin-left: 200px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.address-detail-title {
+  margin-left: 220px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.save-address-btn {
+  padding: 15px 30px 15px 30px;
+  background-color: white;
+  border: 1px solid rgb(102, 145, 16);
+  border-radius: 30px;
+  color: rgb(102, 145, 16);
+  font-weight: bold;
+  margin-left: 220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-area {
+  margin-left: 200px;
+  background-color: rgb(241, 238, 236);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 620px 10px 10px;
+}

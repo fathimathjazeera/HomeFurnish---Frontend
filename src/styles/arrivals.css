@@ -1,0 +1,44 @@
+.arrivals-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.arrivals-image {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.arrivals-image-container {
+  position: relative;
+}
+.new-arrivals-title {
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-size: 40px;
+}
+.wishlist-icon-container {
+  background-color: black;
+  position: absolute;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+  top: 80px;
+  left: 200px;
+}
+.wishlist-icon,
+.add-cart-icon {
+  height: 18px;
+  margin-top: 3px;
+}
+.add-cart-container {
+  background-color: rgb(205, 216, 194);
+  position: absolute;
+  top: 140px;
+  left: 200px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+}
+.arrivals-detail {
+  display: flex;
+  justify-content: space-between;
+}

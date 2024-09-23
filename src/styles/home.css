@@ -1,0 +1,113 @@
+.home-container {
+  background-color: rgb(238, 248, 233);
+  height: auto;
+}
+.main-section {
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  background-color: rgb(205, 216, 194);
+}
+.left-main {
+  margin-left: 150px;
+  width: 500px;
+}
+.main-section-title {
+  font-family: Arial;
+  font-size: 20px;
+}
+.main-section-sub-title {
+  font-size: 35px;
+  font-family: 'Kanit', sans-serif;
+}
+.shop-now-button {
+  background-color: black;
+  color: rgb(205, 216, 194);
+  padding: 20px 60px 20px 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.right-main {
+  margin-left: 300px;
+}
+.brand-container {
+  background-color: white;
+  height: 150px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.brand-title {
+  text-align: center;
+  font-size: 17px;
+  font-family: Arial;
+}
+.brands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.brand {
+  flex: 0 0 auto;
+  padding: 0 20px;
+}
+.brand-track {
+  display: flex;
+  animation: scroll 7s linear infinite;
+}
+.brand-image {
+  height: 40px;
+  width: 150px;
+  margin-right: 20px;
+}
+.latest-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.left-latest,
+.right-latest {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 900px;
+  background: linear-gradient(90deg, rgb(170, 190, 160), rgb(215, 223, 208));
+}
+.left-latest {
+  margin-left: 100px;
+}
+.latest-title {
+  font-family: Arial;
+  font-size: 20px;
+}
+.latest-sub-title {
+  font-family: Arial;
+  font-size: 20px;
+}
+.right-latest {
+  margin-right: 100px;
+}
+.latest-chair,
+.chandelier-light {
+  height: 250px;
+  margin-top: 40px;
+}
+.latest-shop-button {
+  color: white;
+  background-color: rgb(170, 190, 160);
+  font-weight: bold;
+  padding: 15px 40px 15px 40px;
+  border: 1px solid white;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}

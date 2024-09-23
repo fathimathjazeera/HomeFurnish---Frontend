@@ -1,0 +1,26 @@
+.payment-card {
+  display: flex;
+  gap: 20px;
+  width: 700px;
+  margin-left: 180px;
+}
+.payment-card p {
+  margin: 0;
+}
+.debit-card {
+  border: 1px solid gray;
+  border-radius: 20px;
+  flex: 1;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.expiry-card {
+  display: flex;
+  justify-content: space-around;
+}
+.save-card-title {
+  margin-left: 180px;
+  font-weight: bold;
+  font-size: 20px;
+}
