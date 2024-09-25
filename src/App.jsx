@@ -6,6 +6,10 @@ import Cart from './pages/Cart.jsx';
 import Address from './pages/Address.jsx';
 import Payment from './pages/Payment.jsx';
 import MyAccount from './pages/MyAccount.jsx';
+import CreateProduct from './pages/Admin/CreateProduct.jsx';
+import ProductList from './pages/Admin/ProductList.jsx';
+
+
 
 function App() {
   return (
@@ -18,12 +22,11 @@ function App() {
         <Route path="/address" Component={Address} />
         <Route path="/payment" Component={Payment} />
         <Route path="/account" Component={MyAccount} />
+        <Route path="/createproduct" Component={CreateProduct} />
+        <Route path="/allproducts" Component={ProductList} />
       </Routes>
     </>
   );
 }
-
-
-
 
 export default App;

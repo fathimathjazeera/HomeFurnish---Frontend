@@ -1,0 +1,49 @@
+.product-list-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(102, 145, 16);
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-table th {
+    background-color: rgb(102, 145, 16);
+    color: white;
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .product-image {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
